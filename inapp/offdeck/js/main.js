@@ -379,7 +379,7 @@ TresAd.prototype.events = function() {
 TresAd.prototype.onSubmit = function() {
   var el = this.element
   this.app.tracker('E', 'get_code')
-  this.app.loadJs('//www.mobileads.com/get_unique_code?userId=2901&campaignId=194&studioId=238&isDemo=0&callback=getCode')
+  this.app.loadJs('//www.mobileads.com/get_unique_code?userId=2901&campaignId=194&studioId=238&isDemo=1&callback=getCode')
 }
 
 function getCode(c) {
